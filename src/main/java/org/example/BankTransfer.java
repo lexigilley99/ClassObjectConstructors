@@ -10,6 +10,12 @@ public class BankTransfer {
 
         account1.printAccountDetails();
         account2.printAccountDetails();
+
+        account1.transfer(account2, 200.0);
+
+        account1.printAccountDetails();
+        account2.printAccountDetails();
     }
 }
+
 
